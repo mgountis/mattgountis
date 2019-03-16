@@ -1,0 +1,150 @@
+body{
+    font-family: 'Share Tech', sans-serif;
+    background: #2B4F63;
+    padding: 0;
+}
+
+#mainNavbar .navbar-brand{
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link{
+    font-size: 1.3rem;
+    color: white;
+}
+
+#projectsNavbar .nav-link{
+    font-size: 1.3rem;
+    color: darkgray;
+}
+
+#projectsNavbar .nav-link:hover{
+    color: #737373;
+}
+
+#mainNavbar .nav-link:hover{
+    color: #737373;
+}
+
+.navbar.scrolled{
+    background: #152328;
+    transition: background 1s;
+}
+
+#logo{
+    width: 100px;
+    padding: 10%;
+    border-radius: 50%;
+}
+
+#mainNavbar .nav-link:active{
+    color: #737373;
+}
+
+.jumbotron{
+    text-align: center;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    padding-top: 41vh;
+    height: 100vh;
+    color: white;
+    margin: 0;
+}
+
+#homeJumbotron{
+    background-image: url("imgs/mySetup1.jpg");
+    background-size: 100% 100%;
+}
+
+#description{
+    text-align: center;
+    color: white;
+    font-size: 1.35rem;
+    line-height: 1.5;
+}
+
+#skills{
+    color: white;
+    font-size: 1.25rem;
+    background-color: #B0B0B0;
+    padding-bottom: 150px;
+    padding-left: 0;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+    width: 35%;
+}
+
+#skills h1{
+    text-align: center;
+}
+
+#skills li{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.no-bullets{
+    list-style-type: none;
+}
+
+#skill-score{
+    margin: 0;
+}
+
+#skills ul > li { min-height: 30px; padding: 3px 0px; }
+#skills ul > li:hover { background: #7A7A7A; }
+#skills ul > li .skill { display: inline-block; width: 60%; }
+#skills ul > li .skill-score{ float: right;}
+#skills ul > li .skill-score i{ 
+	color: #FD7006; 
+	font-size: 14px; 
+	 
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#skills ul > li:hover .skill-score i{ margin-left: 2px; } 
+
+#contact{
+    text-align: center;
+    padding-top: 35px;
+    font-size: 1.25rem;
+    color: white;
+    padding-bottom: 35px;
+}
+
+#twitter{
+    color: #00aced;
+}
+#me{
+    height: 150px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
+#projectsJumbotron{
+    background-image: url("imgs/projects.jpg");
+    background-size: 100% 100%;
+}
+#projectList{
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+    color: white;
+    font-size: 1.25rem;
+    background-color: #B0B0B0;
+    padding-bottom: 150px;
+    padding-left: 0;
+}
